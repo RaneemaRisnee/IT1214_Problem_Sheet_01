@@ -17,11 +17,26 @@ class Student{
     public int getDayAttended() {
         return dayAttended;
     }
+    public void setStudentId(int studentId) {
+        this.studentId = studentId;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setDaysAttended(int daysAttended) {
+        this.daysAttended = daysAttended;
+    }
 
-public static void main(String [] args){
 
 
-     System.out.println("Hi!!!!!");
+    
+
 }
 
+public class Main{   
+    public static void main(String [] args){
+
+
+        System.out.println("Hi!!!!!");
+    }
 }
