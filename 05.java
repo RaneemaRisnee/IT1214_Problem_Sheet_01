@@ -1,6 +1,5 @@
 import java.util.*;
 
-
 class Student {
 	private String name;
 	private int exam1;
@@ -18,13 +17,8 @@ class Student {
 			}
 		}
 		
-		
-		
-		
 	Student(String name,int exam1,int exam2,int exam3)throws Exception{
 		this.name=name;
-		
-	
 	
 		if(validateMarks(exam1) ){
 				this.exam1=exam1;
@@ -35,16 +29,13 @@ class Student {
 			}
 			
 		if(validateMarks(exam2) ){
-
 				this.exam2=exam2;
-		
 			}else{
 				System.out.println("Exam scores must be between 0 and 100.");
 				throws new Exception("Invalid Marks");
 			}
 			
 		if(validateMarks(exam3)){
-				
 				this.exam3=exam3;
 			}else{
 				System.out.println("Exam scores must be between 0 and 100.");
