@@ -32,10 +32,19 @@ class Student{
     
 
 }
+class Classroom{
+    int [] Student = new int[10];
+
+    addStudent(){
+
+    }
+}
 
 public class Main{   
     public static void main(String [] args){
 
+        Classroom c1 = new Classroom();
+        
 
         System.out.println("Hi!!!!!");
     }
