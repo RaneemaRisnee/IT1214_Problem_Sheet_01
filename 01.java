@@ -44,7 +44,7 @@ public class Main{
     public static void main(String [] args){
 
         Classroom c1 = new Classroom();
-        
+        int y;
 
         System.out.println("Hi!!!!!");
     }
