@@ -14,6 +14,18 @@ class BankAccount {
     public String getAccountHolder() { return accountHolder; }
     public double getBalance() { return balance; }
 
+     public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public void setAccountHolder(String accountHolder) {
+        this.accountHolder = accountHolder;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
     public void withdraw(double amount) {
         if (amount > balance) {
             throw new IllegalArgumentException("Insufficient balance");
