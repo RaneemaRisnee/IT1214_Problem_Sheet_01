@@ -17,9 +17,6 @@ class Student {
     public void setName(String name) { this.name = name; }
     public void setDaysAttended(int daysAttended) { this.daysAttended = daysAttended; }
 
-    public String toString() {
-        return "ID: " + studentId + ", Name: " + name + ", Days Attended: " + daysAttended;
-    }
 }
 
 class Classroom {
