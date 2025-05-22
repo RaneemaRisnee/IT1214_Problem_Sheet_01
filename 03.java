@@ -41,7 +41,9 @@ class Bank {
     private int count = 0;
 
     public void addAccount(BankAccount acc) {
-        if (count < 5) accounts[count++] = acc;
+        if (count < 5) {
+            accounts[count++] = acc
+        };
     }
 
     public void withdrawFromAccount(int accNo, double amount) {

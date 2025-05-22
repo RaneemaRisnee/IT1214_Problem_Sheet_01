@@ -12,9 +12,7 @@ class Ticket {
     public int getTicketNumber() { return ticketNumber; }
     public int getSeatNumber() { return seatNumber; }
 
-    public String toString() {
-        return "Ticket#: " + ticketNumber + ", Customer: " + customerName + ", Seat: " + seatNumber;
-    }
+  
 }
 
 class BookingSystem {
