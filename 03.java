@@ -33,9 +33,7 @@ class BankAccount {
         balance -= amount;
     }
 
-    public String toString() {
-        return "Acc#: " + accountNumber + ", Holder: " + accountHolder + ", Balance: " + balance;
-    }
+
 }
 
 class Bank {
