@@ -9,8 +9,29 @@ class Ticket {
         this.seatNumber = seatNumber;
     }
 
-    public int getTicketNumber() { return ticketNumber; }
-    public int getSeatNumber() { return seatNumber; }
+   public int getTicketNumber() {
+        return ticketNumber;
+    }
+
+    public String getCustomerName() {
+        return customerName;
+    }
+
+    public int getSeatNumber() {
+        return seatNumber;
+    }
+
+    public void setTicketNumber(int ticketNumber) {
+        this.ticketNumber = ticketNumber;
+    }
+
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
+    }
+
+    public void setSeatNumber(int seatNumber) {
+        this.seatNumber = seatNumber;
+    }
 
   
 }
