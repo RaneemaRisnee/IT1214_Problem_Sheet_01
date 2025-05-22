@@ -13,9 +13,7 @@ class Vehicle {
     public String getOwnerName() { return ownerName; }
     public int getHoursParked() { return hoursParked; }
 
-    public String toString() {
-        return "License: " + licensePlate + ", Owner: " + ownerName + ", Hours: " + hoursParked;
-    }
+
 }
 
 class ParkingLot {
