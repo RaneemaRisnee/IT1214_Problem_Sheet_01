@@ -69,7 +69,6 @@ class BookingSystem {
                 return;
             }
         }
-        
         System.out.println("Ticket not found.");
     }
 
