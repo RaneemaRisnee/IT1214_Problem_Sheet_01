@@ -60,18 +60,18 @@ class StudentDemo{
 	public static void main(String []args){
 		Scanner scan = new Scanner(System.in);
 		try{
-		Student s1 = new Student("John",75,110,90);
-		System.out.println("Name of the Student 1: "+s1.getName());
-		System.out.println("Marks of the Student 1 for Exam 1: "+s1.getExam1());
-		System.out.println("Marks of the Student 1 for Exam 2: "+s1.getExam2());
-		System.out.println("Marks of the Student 1 for Exam 3: "+s1.getExam3());
-		System.out.println();
-		
-		Student s2 = new Student("Beccy",75,80,90);
-		System.out.println("Name of the Student 2: "+s2.getName());
-		System.out.println("Marks of the Student 2 for Exam 1: "+s2.getExam1());
-		System.out.println("Marks of the Student 2 for Exam 2: "+s2.getExam2());
-		System.out.println("Marks of the Student 2 for Exam 3: "+s2.getExam3());
+			Student s1 = new Student("John",75,110,90);
+			System.out.println("Name of the Student 1: "+s1.getName());
+			System.out.println("Marks of the Student 1 for Exam 1: "+s1.getExam1());
+			System.out.println("Marks of the Student 1 for Exam 2: "+s1.getExam2());
+			System.out.println("Marks of the Student 1 for Exam 3: "+s1.getExam3());
+			System.out.println();
+			
+			Student s2 = new Student("Beccy",75,80,90);
+			System.out.println("Name of the Student 2: "+s2.getName());
+			System.out.println("Marks of the Student 2 for Exam 1: "+s2.getExam1());
+			System.out.println("Marks of the Student 2 for Exam 2: "+s2.getExam2());
+			System.out.println("Marks of the Student 2 for Exam 3: "+s2.getExam3());
 		}catch{
 			throws new Exception("Exception!");
 			
