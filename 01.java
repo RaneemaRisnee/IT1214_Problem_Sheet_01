@@ -16,7 +16,6 @@ class Student {
     public void setStudentId(int studentId) { this.studentId = studentId; }
     public void setName(String name) { this.name = name; }
     public void setDaysAttended(int daysAttended) { this.daysAttended = daysAttended; }
-
 }
 
 class Classroom {
