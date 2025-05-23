@@ -32,8 +32,6 @@ class BankAccount {
         }
         balance -= amount;
     }
-
-
 }
 
 class Bank {
