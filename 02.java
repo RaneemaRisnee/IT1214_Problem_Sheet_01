@@ -13,7 +13,6 @@ class Vehicle {
     public String getOwnerName() { return ownerName; }
     public int getHoursParked() { return hoursParked; }
 
-
 }
 
 class ParkingLot {
